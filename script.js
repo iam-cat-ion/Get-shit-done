@@ -24,4 +24,11 @@ function completeTask(button, xp) {
   totalXP += xp;
   document.getElementById("xpcount").innerText = totalXP;
   button.parentElement.remove();
+  
+  confetti({
+  particleCount: 150,
+  spread: 100,
+  angle: 90,
+  origin: { x: 0.5, y: 0.3 }
+});
 }
