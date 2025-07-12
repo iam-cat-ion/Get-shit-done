@@ -29,6 +29,7 @@ function completeTask(button, xp) {
   particleCount: 150,
   spread: 100,
   angle: 90,
-  origin: { x: 0.5, y: 0.3 }
+  origin: { x: 0.5, y: 0.3 },
+    colors: ['#000000', '#333333', '#999999', '#CCCCCC', '#FFFFFF']
 });
 }
