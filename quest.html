@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>get shit done</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Get Shit Done</h1>
+
+    <input type="text" placeholder="Enter your task.." id="taskInput">
+    <select id="difficulty">
+      <option value="easy">Easy:5xp</option>
+      <option value="medium">Medium:10xp</option>
+      <option value="hard">Hard:15xp</option>
+    </select>
+    <button onclick="addTask()">Add Task</button>
+
+    <ul id="taskList"></ul>
+    <div id="xpcount">⭐️TOTAL XP⭐️: <span id="xpCount">0</span></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

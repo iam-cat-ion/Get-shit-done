@@ -1,0 +1,111 @@
+body {
+  font-family: 'Press Start 2p', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+select {
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  font-size: 12px;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+select:hover {
+  border-color: #010001;
+  background-color: #f0f0ff;
+}
+
+option {
+  background-color: #fff;
+  color: #333;
+}
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+input, select {
+  padding: 10px;
+  margin: 10px;
+  width: 60%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #161c00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#taskList {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 8px;
+  list-style-type: ;
+  padding: 0;
+}
+
+#taskList li::before {
+  content: "⭐️";"
+  margin-right: 8px;
+}
+
+#taskList li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#xpcount {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.start-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 20px;
+  background-color: #000000;
+  color: white;
+  border-radius: 8px;
+  font-size: 10px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.start-btn:hover {
+  background-color: #000000;
+}
+
+p {
+  font-size: 10px;
+}
+
+.hero-img {
+  width: 80%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 16px;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.hero-img:hover {
+  transform: scale(1.03);
+}
