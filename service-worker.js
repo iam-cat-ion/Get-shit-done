@@ -7,7 +7,7 @@ self.addEventListener('install', function(e) {
         '/quest.html',
         '/style.css',
         '/script.js',
-        '/icon-192.png',
+        '/Untitled44_20250713123604.png',
         '/icon-512.png'
       ]);
     })
